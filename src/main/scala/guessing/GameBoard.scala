@@ -7,6 +7,7 @@ class GameBoard{
   var mycode = ""
   var gos = 12
 
+  //Init to allow easier testing
   def init():Unit= {
     gameSize = getGameSize()
     easy = getEasiness()
